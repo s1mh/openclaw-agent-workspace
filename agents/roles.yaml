@@ -1,0 +1,28 @@
+# Public role map. This is documentation, not a production gateway config.
+builder:
+  purpose: coordinate work and consolidate evidence
+  can_delegate_to: [produto, design-produto, design-marca, engenharia, qualidade, infosec, plataforma, dados-metricas, marketing-growth, comercial-atendimento, financas-operacoes, legal-privacidade]
+produto:
+  purpose: define problem, users, journeys and acceptance criteria
+design-produto:
+  purpose: turn product decisions into flows and interface direction
+design-marca:
+  purpose: define visual language and brand direction
+engenharia:
+  purpose: prepare architecture and implementation artifacts
+qualidade:
+  purpose: review independently and preserve observable evidence
+infosec:
+  purpose: identify security, privacy and data exposure risks
+plataforma:
+  purpose: define runtime, operations and recovery boundaries
+dados-metricas:
+  purpose: define metrics and measurement plans
+marketing-growth:
+  purpose: prepare positioning and experiment briefs
+comercial-atendimento:
+  purpose: prepare demonstrations, onboarding and feedback structure
+financas-operacoes:
+  purpose: model costs, viability and operational scenarios
+legal-privacidade:
+  purpose: review privacy and legal boundaries
