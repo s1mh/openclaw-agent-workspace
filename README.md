@@ -20,12 +20,20 @@ O piloto Estúdio aparece somente como exemplo de uma demanda que passou pela eq
 - `docs/`: arquitetura, coordenação e segurança;
 - `agents/`: instruções reais de função, adaptadas e sanitizadas para publicação;
 - `examples/estudio/`: exemplo resumido do fluxo;
-- `screenshots/`: capturas selecionadas da interface;
+- `screenshots/`: capturas reais da interface do OpenClaw;
 - `reports/`: resultados e limitações resumidos.
 
-## Demonstração visual
+## OpenClaw em uso
 
-Abra `demo/index.html` diretamente no navegador ou sirva a pasta `demo/` com qualquer servidor HTTP local. A tela é uma simulação pública da equipe e não se conecta ao gateway.
+Estas imagens foram capturadas no OpenClaw em execução. Elas mostram a equipe cadastrada e um lote de validação coordenado pelo Builder. O lote terminou com 8 casos aprovados, 3 bloqueados e 1 não executado; isso registra apenas os testes descritos, não certifica as integrações por completo.
+
+| Equipe de agentes | Continuação da lista |
+| --- | --- |
+| ![Tela real do OpenClaw com a primeira parte da equipe de agentes](screenshots/openclaw-agents-top.jpg) | ![Tela real do OpenClaw com os demais agentes, incluindo Builder e Main](screenshots/openclaw-agents-lower.jpg) |
+
+### Um lote coordenado pelo Builder
+
+![Resultado real de um lote no OpenClaw: 12 casos encerrados, 8 aprovados, 3 bloqueados e 1 não executado](screenshots/openclaw-validation-batch.jpg)
 
 ## Segurança
 
