@@ -23,6 +23,10 @@ O piloto Estúdio aparece somente como exemplo de uma demanda que passou pela eq
 - `screenshots/`: capturas selecionadas da interface;
 - `reports/`: resultados e limitações resumidos.
 
+## Demonstração visual
+
+Abra `demo/index.html` diretamente no navegador ou sirva a pasta `demo/` com qualquer servidor HTTP local. A tela é uma simulação pública da equipe e não se conecta ao gateway.
+
 ## Segurança
 
 Este repositório não contém tokens, credenciais, arquivos de autenticação, bancos locais, logs privados, históricos completos de conversas ou configurações da VM. Os arquivos de configuração são modelos sanitizados. Consulte `SECURITY.md` antes de adaptar qualquer exemplo.
