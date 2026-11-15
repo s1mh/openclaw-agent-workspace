@@ -18,7 +18,7 @@ O piloto Estúdio aparece somente como exemplo de uma demanda que passou pela eq
 ## Estrutura
 
 - `docs/`: arquitetura, coordenação e segurança;
-- `agents/`: cartões e contratos públicos dos agentes;
+- `agents/`: instruções reais de função, adaptadas e sanitizadas para publicação;
 - `examples/estudio/`: exemplo resumido do fluxo;
 - `screenshots/`: capturas selecionadas da interface;
 - `reports/`: resultados e limitações resumidos.
@@ -32,5 +32,7 @@ Abra `demo/index.html` diretamente no navegador ou sirva a pasta `demo/` com qua
 Este repositório não contém tokens, credenciais, arquivos de autenticação, bancos locais, logs privados, históricos completos de conversas ou configurações da VM. Os arquivos de configuração são modelos sanitizados. Consulte `SECURITY.md` antes de adaptar qualquer exemplo.
 
 ## Estado
+
+Os perfis em `agents/` foram derivados das instruções reais dos workspaces OpenClaw. Eles foram revisados e reduzidos para remover contexto privado da instalação. Não são a configuração operacional completa. Consulte [`agents/README.md`](agents/README.md) e [`agents/SOURCES.md`](agents/SOURCES.md) para entender a origem e os limites da publicação.
 
 Este é um projeto de portfólio e documentação de um experimento pessoal. Alguns fluxos são demonstrativos e algumas integrações dependem de autenticação ou serviços externos.

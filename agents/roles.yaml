@@ -1,28 +1,42 @@
 # Public role map. This is documentation, not a production gateway config.
+# The corresponding sanitized role instructions live at agents/<id>/AGENTS.md.
 builder:
   purpose: coordinate work and consolidate evidence
+  instructions: agents/builder/AGENTS.md
   can_delegate_to: [produto, design-produto, design-marca, engenharia, qualidade, infosec, plataforma, dados-metricas, marketing-growth, comercial-atendimento, financas-operacoes, legal-privacidade]
 produto:
   purpose: define problem, users, journeys and acceptance criteria
+  instructions: agents/produto/AGENTS.md
 design-produto:
   purpose: turn product decisions into flows and interface direction
+  instructions: agents/design-produto/AGENTS.md
 design-marca:
   purpose: define visual language and brand direction
+  instructions: agents/design-marca/AGENTS.md
 engenharia:
   purpose: prepare architecture and implementation artifacts
+  instructions: agents/engenharia/AGENTS.md
 qualidade:
   purpose: review independently and preserve observable evidence
+  instructions: agents/qualidade/AGENTS.md
 infosec:
   purpose: identify security, privacy and data exposure risks
+  instructions: agents/infosec/AGENTS.md
 plataforma:
   purpose: define runtime, operations and recovery boundaries
+  instructions: agents/plataforma/AGENTS.md
 dados-metricas:
   purpose: define metrics and measurement plans
+  instructions: agents/dados-metricas/AGENTS.md
 marketing-growth:
   purpose: prepare positioning and experiment briefs
+  instructions: agents/marketing-growth/AGENTS.md
 comercial-atendimento:
   purpose: prepare demonstrations, onboarding and feedback structure
+  instructions: agents/comercial-atendimento/AGENTS.md
 financas-operacoes:
   purpose: model costs, viability and operational scenarios
+  instructions: agents/financas-operacoes/AGENTS.md
 legal-privacidade:
   purpose: review privacy and legal boundaries
+  instructions: agents/legal-privacidade/AGENTS.md
